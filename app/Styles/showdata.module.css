@@ -1,0 +1,187 @@
+
+/* .button{
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin-left: 10rem;
+    font-weight: bold;
+    color: skyblue;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.button:hover{
+    color: white;
+    background-color: skyblue;
+    border: none;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+} */
+
+
+.main{
+    background-image: none;
+    color: #ffffff;
+    background-color: #1b4fee;
+    text-align: center;
+    position: relative;
+    display: block;
+    height: 100vh;
+}
+.rapper{
+    pointer-events: none;
+    justify-content: center;
+        display: flex;
+    flex-direction: column;
+        position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.header{
+        pointer-events: initial;
+        margin-top: 60px;
+    margin-bottom: 60px;
+    flex-shrink: 0;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    position: relative;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+.layout{
+    display: block;
+    pointer-events: initial;
+    text-align: center;
+}
+.container{
+flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    pointer-events: initial;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.imagecontainer{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 5rem;
+}
+.image{
+        height: 316px;
+    width: 316px;
+        background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/6418f6931eb356a9984e3b66/online-assistant-user-help-frequently-asked-questions-call-center-worker-cartoon-character-woman-working-hotline_335657-2336.jpg");
+    background-position: 50% 50%;
+    margin: 0 auto 0 0;
+    border-radius: 50% !important;
+    object-fit: contain;
+    background-size: contain;
+    color: #111111;
+    flex-shrink: 0;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    pointer-events: initial;
+}
+.buttoncontainer{
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+    max-height: 100%; 
+    margin-right: 30rem; 
+}
+.buttonrapper{
+    padding: 30px 30px 30px 60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+
+}
+.para{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 25px auto 0 0;
+    word-wrap: break-word;
+    position: relative;
+    flex-shrink: 0;
+     display: table;
+    align-self: flex-start;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.button{
+    color: #1b4fee !important;
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    background-image: none;
+    box-shadow: 2px 5px 0px 0 rgba(41,43,51,0.4);
+    margin: 30px auto 0 0;
+    padding: 18px 65px 19px;
+    background-color: #fbb39e !important;
+    border-width: 0;
+    border-radius: 50px !important;
+    flex-shrink: 0;
+    position: relative;
+    display: table;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: inherit;
+        font-weight: inherit;
+    text-decoration: none;
+    border: 0 none transparent;
+    outline-width: 0;
+        font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    vertical-align: middle;
+    text-align: center;
+    align-self: flex-start;
+}
+.icon{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.top{
+    height: 100vh;
+    color: #ffffff;
+    background-image: url("//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/444e9c2259545f2c94943da0/b7804190-23ce-9975-427a-b4551eb1da62.jpg");
+}
+.data{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+}
