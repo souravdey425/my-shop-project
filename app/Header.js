@@ -1,13 +1,17 @@
 "use client"
 
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from "../app/Styles/navbar.module.css"
 import { signOut, useSession } from 'next-auth/react'
 
 const Header = () => {
   const {data}=useSession()
+useEffect(()=>{
   console.log(data)
+},[data])
+  
+  
   return (
     <div className={styles.container}>
     <div className={styles.rapper}>

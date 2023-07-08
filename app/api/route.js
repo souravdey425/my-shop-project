@@ -1,8 +1,9 @@
 import mongoose from "mongoose"
 import { NextResponse } from 'next/server';
+import dbConnect from "../api/config/dbConnect";
+// mongoose.connect("mongodb://0.0.0.0:27017/hello")
 
-mongoose.connect("mongodb://0.0.0.0:27017/hello")
-
+dbConnect()
 const itemsSchema =new mongoose.Schema( {
   userName:String,
   pname: String,

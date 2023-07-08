@@ -1,4 +1,5 @@
 "use client"
+
 import { useSession } from 'next-auth/react'
 import React, {  useEffect, useState } from 'react'
 import styles from "../Styles/insertdata.module.css"
@@ -41,7 +42,7 @@ await axios.put('/api/updatedata',{
    price,
    priceFor }) 
       }
-       await fetch('/api/insertData', {
+    else  {await fetch('/api/insertData', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -54,6 +55,7 @@ await axios.put('/api/updatedata',{
    setPrice("")
    setPriceFor("kg")
     }
+  }
   
   return (
     <div className={styles.body}>

@@ -6,9 +6,9 @@ import dbConnect from "../config/dbConnect";
 dbConnect()
 
 const itemsSchema=new mongoose.Schema({
-  userName:{type:String,required:true},
+  userName:{type:String,index:{required:true,background:false}},
     // pname:{type:String,unique:true},
-    pname:String,
+    pname:{type:String,index:{unique:true,background:false}},
     quantityType:Number,
     price:Number,
     priceFor:String
